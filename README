@@ -1,0 +1,27 @@
+ayeletavr
+
+
+=============================
+=      File description     =
+=============================
+Book.java - This class represents a book object for the library system.
+Patron.java - This class represents a patron that can borrow books from the library.
+Library.java - This class represents the library.
+
+
+
+=============================
+=          Design           =
+=============================
+In this exercise, we were requested to implement each class exactly according to its API.
+
+=============================
+=  Implementation details   =
+=============================
+In addition to the methods in the API, I added one another method in the Library class,
+that is called currentlyBorrowing, which counts for a specific patron's Id how many books is he currently borrowing.
+Of course I used this method only inside the class - it's private since it's not a part of the API.
+
+=============================
+=    Answers to questions   =
+=============================
